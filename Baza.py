@@ -12,6 +12,7 @@ b = 2 * (2 + 2)
 print(a == b)
 
 # 4th program
-x = '123.456'
-print(x[4])
-
+x = float('123.456')
+x = int(x * 10)
+x = x % 10
+print(x)
